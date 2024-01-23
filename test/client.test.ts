@@ -8,6 +8,7 @@ describe("eleven labs", () => {
         });
         const response = await eleven.voices.getAll();
         console.log(response);
+        console. log (nonresonse);
     });
 
     it.skip("text to speech", async () => {
